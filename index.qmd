@@ -1,19 +1,20 @@
 ---
-title: "statCTV"
+title: "The Statistical Consulting Training Videos (StatCTV) Initiative"
 ---
 
-Front page TBD
+Note: This page is in development; please check back soon. 
 
-## The Statistical Consulting Training Videos initiative 
+Welcome to StatCTV; a repository of publicly-contributed and publicly-available training videos for statistical consulting and collaboration.  
 
-## Videos
+## Video Repository
 
 ```{r, echo = FALSE, message = FALSE}
 library(dplyr)
 library(knitr)
+library(DT)
 
-data.frame("Title" = rep("TBD", 5), "Keywords" = rep("TBD", 5), "Link" = rep("TBD", 5)) %>% 
-  kable() 
+data.frame("Title" = rep("TBD", 5), "Keywords" = rep("TBD", 5), "Links" = rep("video; script; questions", 5)) %>% 
+  datatable(options=list(pageLength=10, autoWidth=TRUE), rownames=FALSE)
 ```
 
 ## Submit your video to our website!
@@ -23,9 +24,10 @@ Everyone can submit their own video to this website via THIS FORM. New submissio
 - A YouTube link to their video (see production requirements below)
 - A script
 - A set of discussion questions
-- An acknowledgement of our contributor code of conduct
+- An acknowledgement of our [contributor code of conduct](codeofconduct.qmd)
 
 Video requirements: 
+
 - Videos must be audible. Closed-captioning should be provided (Youtube can do this automatically)
 - Videos must be under 5 minutes in length
 - Must conform to Youtube's guidelines for all ages

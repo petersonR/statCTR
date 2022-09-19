@@ -1,12 +1,18 @@
 {
-  "hash": "99ee16c17a544ff6c0366f96c3298deb",
+  "hash": "ea4c9f82530a19c1c09a16d6c97a035b",
   "result": {
-    "markdown": "---\ntitle: \"statCTV\"\n---\n\n\nFront page TBD\n\n## The Statistical Consulting Training Videos initiative \n\n## Videos\n\n\n::: {.cell}\n::: {.cell-output-display}\n|Title |Keywords |Link |\n|:-----|:--------|:----|\n|TBD   |TBD      |TBD  |\n|TBD   |TBD      |TBD  |\n|TBD   |TBD      |TBD  |\n|TBD   |TBD      |TBD  |\n|TBD   |TBD      |TBD  |\n:::\n:::\n\n\n## Submit your video to our website!\n\nEveryone can submit their own video to this website via THIS FORM. New submissions will require the following: \n\n- A YouTube link to their video (see production requirements below)\n- A script\n- A set of discussion questions\n- An acknowledgement of our contributor code of conduct\n\nVideo requirements: \n- Videos must be audible. Closed-captioning should be provided (Youtube can do this automatically)\n- Videos must be under 5 minutes in length\n- Must conform to Youtube's guidelines for all ages\n- more...",
-    "supporting": [],
+    "markdown": "---\ntitle: \"The Statistical Consulting Training Videos (StatCTV) Initiative\"\n---\n\n\nNote: This page is in development; please check back soon. \n\nWelcome to StatCTV; a repository of publicly-contributed and publicly-available training videos for statistical consulting and collaboration.  \n\n## Video Repository\n\n\n::: {.cell}\n::: {.cell-output-display}\n```{=html}\n<div id=\"htmlwidget-ae93777d619132c27a02\" style=\"width:100%;height:auto;\" class=\"datatables html-widget\"></div>\n<script type=\"application/json\" data-for=\"htmlwidget-ae93777d619132c27a02\">{\"x\":{\"filter\":\"none\",\"vertical\":false,\"data\":[[\"TBD\",\"TBD\",\"TBD\",\"TBD\",\"TBD\"],[\"TBD\",\"TBD\",\"TBD\",\"TBD\",\"TBD\"],[\"video; script; questions\",\"video; script; questions\",\"video; script; questions\",\"video; script; questions\",\"video; script; questions\"]],\"container\":\"<table class=\\\"display\\\">\\n  <thead>\\n    <tr>\\n      <th>Title<\\/th>\\n      <th>Keywords<\\/th>\\n      <th>Links<\\/th>\\n    <\\/tr>\\n  <\\/thead>\\n<\\/table>\",\"options\":{\"pageLength\":10,\"autoWidth\":true,\"columnDefs\":[],\"order\":[],\"orderClasses\":false}},\"evals\":[],\"jsHooks\":[]}</script>\n```\n:::\n:::\n\n\n## Submit your video to our website!\n\nEveryone can submit their own video to this website via THIS FORM. New submissions will require the following: \n\n- A YouTube link to their video (see production requirements below)\n- A script\n- A set of discussion questions\n- An acknowledgement of our [contributor code of conduct](codeofconduct.qmd)\n\nVideo requirements: \n\n- Videos must be audible. Closed-captioning should be provided (Youtube can do this automatically)\n- Videos must be under 5 minutes in length\n- Must conform to Youtube's guidelines for all ages\n- more...",
+    "supporting": [
+      "index_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],
-    "includes": {},
+    "includes": {
+      "include-in-header": [
+        "<script src=\"site_libs/htmlwidgets-1.5.4/htmlwidgets.js\"></script>\n<link href=\"site_libs/datatables-css-0.0.0/datatables-crosstalk.css\" rel=\"stylesheet\" />\n<script src=\"site_libs/datatables-binding-0.23/datatables.js\"></script>\n<script src=\"site_libs/jquery-3.6.0/jquery-3.6.0.min.js\"></script>\n<link href=\"site_libs/dt-core-1.11.3/css/jquery.dataTables.min.css\" rel=\"stylesheet\" />\n<link href=\"site_libs/dt-core-1.11.3/css/jquery.dataTables.extra.css\" rel=\"stylesheet\" />\n<script src=\"site_libs/dt-core-1.11.3/js/jquery.dataTables.min.js\"></script>\n<link href=\"site_libs/crosstalk-1.2.0/css/crosstalk.min.css\" rel=\"stylesheet\" />\n<script src=\"site_libs/crosstalk-1.2.0/js/crosstalk.min.js\"></script>\n"
+      ]
+    },
     "engineDependencies": {},
     "preserve": {},
     "postProcess": true
