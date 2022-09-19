@@ -6,9 +6,11 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: Home
+        text: Video Repository
+      - href: casestudies.qmd
+        text: Case Studies
       - about.qmd
-
+     
 format:
   html:
     theme: cosmo

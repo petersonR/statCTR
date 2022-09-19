@@ -19,7 +19,8 @@ data.frame("Title" = rep("TBD", 5), "Keywords" = rep("TBD", 5), "Links" = rep("v
 
 ## Submit your video to our website!
 
-Everyone can submit their own video to this website via THIS FORM. New submissions will require the following: 
+Everyone can submit their own video to this website via [this form](https://forms.gle/njjVuehXaDEALg4NA). 
+New submissions will require the following: 
 
 - A YouTube link to their video (see production requirements below)
 - A script
