@@ -1,40 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "statCTV",
-    "section": "",
-    "text": "Front page TBD"
-  },
-  {
-    "objectID": "index.html#the-statistical-consulting-training-videos-initiative",
-    "href": "index.html#the-statistical-consulting-training-videos-initiative",
-    "title": "statCTV",
-    "section": "The Statistical Consulting Training Videos initiative",
-    "text": "The Statistical Consulting Training Videos initiative"
-  },
-  {
-    "objectID": "index.html#videos",
-    "href": "index.html#videos",
-    "title": "statCTV",
-    "section": "Videos",
-    "text": "Videos\n\n\n\n\n\nTitle\nKeywords\nLink\n\n\n\n\nTBD\nTBD\nTBD\n\n\nTBD\nTBD\nTBD\n\n\nTBD\nTBD\nTBD\n\n\nTBD\nTBD\nTBD\n\n\nTBD\nTBD\nTBD"
-  },
-  {
-    "objectID": "index.html#submit-your-video-to-our-website",
-    "href": "index.html#submit-your-video-to-our-website",
-    "title": "statCTV",
-    "section": "Submit your video to our website!",
-    "text": "Submit your video to our website!\nEveryone can submit their own video to this website via THIS FORM. New submissions will require the following:\n\nA YouTube link to their video (see production requirements below)\nA script\nA set of discussion questions\nAn acknowledgement of our contributor code of conduct\n\nVideo requirements: - Videos must be audible. Closed-captioning should be provided (Youtube can do this automatically) - Videos must be under 5 minutes in length - Must conform to Youtube’s guidelines for all ages - more…"
-  },
-  {
-    "objectID": "ReadMe.html",
-    "href": "ReadMe.html",
-    "title": "statCTV",
-    "section": "",
-    "text": "This is a Quarto website for the statistical consulting training videos initiative."
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -46,6 +11,41 @@
     "href": "about.html#history",
     "title": "About",
     "section": "History",
-    "text": "History\nPlaceholder, why these videos were first started and by whome\nPlaceholder, a creative final project in Statistical Consulting"
+    "text": "History\nPlaceholder, why these videos were first started and by whom\nPlaceholder, a creative final project in Statistical Consulting"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "The Statistical Consulting Training Videos (StatCTV) Initiative",
+    "section": "",
+    "text": "Note: This page is in development; please check back soon.\nWelcome to StatCTV; a repository of publicly-contributed and publicly-available training videos for statistical consulting and collaboration."
+  },
+  {
+    "objectID": "index.html#video-repository",
+    "href": "index.html#video-repository",
+    "title": "The Statistical Consulting Training Videos (StatCTV) Initiative",
+    "section": "Video Repository",
+    "text": "Video Repository"
+  },
+  {
+    "objectID": "index.html#submit-your-video-to-our-website",
+    "href": "index.html#submit-your-video-to-our-website",
+    "title": "The Statistical Consulting Training Videos (StatCTV) Initiative",
+    "section": "Submit your video to our website!",
+    "text": "Submit your video to our website!\nEveryone can submit their own video to this website via THIS FORM. New submissions will require the following:\n\nA YouTube link to their video (see production requirements below)\nA script\nA set of discussion questions\nAn acknowledgement of our contributor code of conduct\n\nVideo requirements:\n\nVideos must be audible. Closed-captioning should be provided (Youtube can do this automatically)\nVideos must be under 5 minutes in length\nMust conform to Youtube’s guidelines for all ages\nmore…"
+  },
+  {
+    "objectID": "ReadMe.html",
+    "href": "ReadMe.html",
+    "title": "statCTV",
+    "section": "",
+    "text": "This is a Quarto website for the statistical consulting training videos initiative."
+  },
+  {
+    "objectID": "codeofconduct.html",
+    "href": "codeofconduct.html",
+    "title": "Contributor Code of Conduct",
+    "section": "",
+    "text": "TBD…"
   }
 ]
