@@ -32,7 +32,7 @@
     "href": "index.html#submit-your-video-to-our-website",
     "title": "The Statistical Consulting Training Videos (StatCTV) Initiative",
     "section": "Submit your video to our website!",
-    "text": "Submit your video to our website!\nEveryone can submit their own video to this website via THIS FORM. New submissions will require the following:\n\nA YouTube link to their video (see production requirements below)\nA script\nA set of discussion questions\nAn acknowledgement of our contributor code of conduct\n\nVideo requirements:\n\nVideos must be audible. Closed-captioning should be provided (Youtube can do this automatically)\nVideos must be under 5 minutes in length\nMust conform to Youtube’s guidelines for all ages\nmore…"
+    "text": "Submit your video to our website!\nEveryone can submit their own video to this website via this form. New submissions will require the following:\n\nA YouTube link to their video (see production requirements below)\nA script\nA set of discussion questions\nAn acknowledgement of our contributor code of conduct\n\nVideo requirements:\n\nVideos must be audible. Closed-captioning should be provided (Youtube can do this automatically)\nVideos must be under 5 minutes in length\nMust conform to Youtube’s guidelines for all ages\nmore…"
   },
   {
     "objectID": "ReadMe.html",
@@ -40,6 +40,13 @@
     "title": "statCTV",
     "section": "",
     "text": "This is a Quarto website for the statistical consulting training videos initiative."
+  },
+  {
+    "objectID": "casestudies.html",
+    "href": "casestudies.html",
+    "title": "Case Studies in Statistical Consulting",
+    "section": "",
+    "text": "TBD…"
   },
   {
     "objectID": "codeofconduct.html",
