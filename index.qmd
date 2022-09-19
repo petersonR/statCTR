@@ -1,0 +1,32 @@
+---
+title: "statCTV"
+---
+
+Front page TBD
+
+## The Statistical Consulting Training Videos initiative 
+
+## Videos
+
+```{r, echo = FALSE, message = FALSE}
+library(dplyr)
+library(knitr)
+
+data.frame("Title" = rep("TBD", 5), "Keywords" = rep("TBD", 5), "Link" = rep("TBD", 5)) %>% 
+  kable() 
+```
+
+## Submit your video to our website!
+
+Everyone can submit their own video to this website via THIS FORM. New submissions will require the following: 
+
+- A YouTube link to their video (see production requirements below)
+- A script
+- A set of discussion questions
+- An acknowledgement of our contributor code of conduct
+
+Video requirements: 
+- Videos must be audible. Closed-captioning should be provided (Youtube can do this automatically)
+- Videos must be under 5 minutes in length
+- Must conform to Youtube's guidelines for all ages
+- more...

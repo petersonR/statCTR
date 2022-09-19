@@ -1,0 +1,14 @@
+{
+  "hash": "99ee16c17a544ff6c0366f96c3298deb",
+  "result": {
+    "markdown": "---\ntitle: \"statCTV\"\n---\n\n\nFront page TBD\n\n## The Statistical Consulting Training Videos initiative \n\n## Videos\n\n\n::: {.cell}\n::: {.cell-output-display}\n|Title |Keywords |Link |\n|:-----|:--------|:----|\n|TBD   |TBD      |TBD  |\n|TBD   |TBD      |TBD  |\n|TBD   |TBD      |TBD  |\n|TBD   |TBD      |TBD  |\n|TBD   |TBD      |TBD  |\n:::\n:::\n\n\n## Submit your video to our website!\n\nEveryone can submit their own video to this website via THIS FORM. New submissions will require the following: \n\n- A YouTube link to their video (see production requirements below)\n- A script\n- A set of discussion questions\n- An acknowledgement of our contributor code of conduct\n\nVideo requirements: \n- Videos must be audible. Closed-captioning should be provided (Youtube can do this automatically)\n- Videos must be under 5 minutes in length\n- Must conform to Youtube's guidelines for all ages\n- more...",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
