@@ -7,10 +7,10 @@ website:
     left:
       - href: index.qmd
         text: Video Repository
-      - href: casestudies.qmd
-        text: Case Studies
       - href: resources.qmd
         text: Resource Repository
+      - href: casestudies.qmd
+        text: Case Studies
       - about.qmd
      
 format:

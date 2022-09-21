@@ -21,7 +21,7 @@ x <- read_sheet('https://docs.google.com/spreadsheets/d/1qO4yLswCyyrHfK6UmzUTajz
 x %>% 
   select(-Timestamp, -Subtitle, -`Email Address`, -`Additional Comments`) %>% 
   rename(Link = `Link to Online Resource`) %>% 
-  mutate(Link = paste0('<a href="', Link, '">link</a>')) %>% 
-  datatable(options=list(pageLength=25, autoWidth=TRUE), rownames=FALSE, escape = FALSE)
+  mutate(Link = paste0('<a href="', Link, '">Link</a>')) %>% 
+  datatable(options=list(pageLength=25, autoWidth=TRUE), rownames=FALSE, escape = FALSE, filter = "bottom")
 ```
 
