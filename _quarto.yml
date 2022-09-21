@@ -9,6 +9,8 @@ website:
         text: Video Repository
       - href: casestudies.qmd
         text: Case Studies
+      - href: resources.qmd
+        text: Resource Repository
       - about.qmd
      
 format:
