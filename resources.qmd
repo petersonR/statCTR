@@ -6,7 +6,7 @@ Note: This page is in development; please check back soon.
 
 ## Submit your resource to our website!
 
-Everyone can submit their own resource to this website via [this form](). The list of existing submissions is below. 
+Everyone can submit their own resource to this website via [this form](https://forms.gle/GG3ao19WudScgZ838). The list of existing submissions is below. 
 
 ## Resource Repository
 
@@ -22,6 +22,6 @@ x %>%
   select(-Timestamp, -Subtitle, -`Email Address`, -`Additional Comments`) %>% 
   rename(Link = `Link to Online Resource`) %>% 
   mutate(Link = paste0('<a href="', Link, '">Link</a>')) %>% 
-  datatable(options=list(pageLength=25, autoWidth=TRUE), rownames=FALSE, escape = FALSE, filter = "bottom")
+  datatable(options=list(pageLength=25, autoWidth=TRUE), rownames=FALSE, escape = FALSE, filter = "top")
 ```
 
