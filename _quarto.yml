@@ -3,6 +3,7 @@ project:
 
 website:
   title: "statCTR"
+  google-analytics: "G-FL4BZV7N6M"
   navbar:
     left:
       - href: index.qmd
