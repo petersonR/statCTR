@@ -1,10 +1,10 @@
 ---
-title: "The Statistical Consulting Training Videos (StatCTV) Initiative"
+title: "The Statistical Consulting Training Repository Initiative"
 ---
 
 Note: This page is in development; please check back soon. 
 
-Welcome to StatCTV; a repository of publicly-contributed and publicly-available training videos for statistical consulting and collaboration.  
+Welcome to StatCTR; a repository of publicly-contributed and publicly-available training resources for statistical consulting and collaboration. This page has our repository of training videos.   
 
 ## Video Repository
 
