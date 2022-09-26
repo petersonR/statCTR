@@ -4,13 +4,12 @@ title: "About"
 
 ## Who we are
 
--   Ryan Peterson
--   Emily Griffith
--   Julia Sharp
+-   Ryan Peterson: [personal website](https://petersonR.github.io), <a href="https://www.twitter.com/ryan_peterson1">{{< fa brands twitter >}}</a>, <a href="https://github.com/petersonR"> {{< fa brands github >}}</a>, <a href="https://orcid.org/0000-0002-4650-5798"> {{< fa brands orcid >}}</a>
+-   Emily Griffith: [personal website](https://sites.google.com/ncsu.edu/emilyhgriffith), <a href="https://www.twitter.com/EmilyHGriffith1">{{< fa brands twitter >}}</a>
+-   Julia Sharp: [personal website](https://sites.google.com/view/juliasharp/home), <a href="https://www.twitter.com/JuliaSharpStats">{{< fa brands twitter >}}</a>
 
-## History 
+## History
 
 Placeholder, why these videos were first started and by whom
 
 Placeholder, a creative final project in Statistical Consulting
-
