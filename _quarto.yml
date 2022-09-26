@@ -3,6 +3,7 @@ project:
 
 website:
   title: "statCTR"
+  site-url: https://www.statCTR.com
   google-analytics: "G-FL4BZV7N6M"
   navbar:
     left:
@@ -13,6 +14,11 @@ website:
       - href: casestudies.qmd
         text: Case Studies
       - about.qmd
+  page-footer: 
+    left: "Copyright 2022, Ryan Peterson" 
+  repo-url: https://github.com/petersonR/statCTR
+  repo-actions: [issue]
+  cookie-consent: true 
      
 format:
   html:

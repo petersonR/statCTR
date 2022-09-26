@@ -4,7 +4,13 @@ title: "The Statistical Consulting Training Repository Initiative"
 
 Note: This page is in development; please check back soon. 
 
-Welcome to StatCTR; a repository of publicly-contributed and publicly-available training resources for statistical consulting and collaboration. This page has our repository of training videos.   
+## Introduction
+
+Welcome to StatCTR; a repository of publicly-contributed and publicly-available training resources for statistical consulting and collaboration. The goal of this website is to provide an open-sourced, community-driven repository for: 
+
+1. Training videos
+2. Papers and online resources
+3. Case studies
 
 ## Video Repository
 
@@ -31,5 +37,5 @@ Video requirements:
 
 - Videos must be audible. Closed-captioning should be provided (Youtube can do this automatically)
 - Videos must be under 5 minutes in length
-- Must conform to Youtube's guidelines for all ages
+- Must conform to YouTube's guidelines for all ages
 - more...
