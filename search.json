@@ -11,7 +11,14 @@
     "href": "index.html",
     "title": "The Statistical Consulting Training Repository Initiative",
     "section": "",
-    "text": "Note: This page is in development; please check back soon.\nWelcome to StatCTR; a repository of publicly-contributed and publicly-available training resources for statistical consulting and collaboration. This page has our repository of training videos."
+    "text": "Note: This page is in development; please check back soon."
+  },
+  {
+    "objectID": "index.html#introduction",
+    "href": "index.html#introduction",
+    "title": "The Statistical Consulting Training Repository Initiative",
+    "section": "Introduction",
+    "text": "Introduction\nWelcome to StatCTR; a repository of publicly-contributed and publicly-available training resources for statistical consulting and collaboration. The goal of this website is to provide an open-sourced, community-driven repository for:\n\nTraining videos\nPapers and online resources\nCase studies"
   },
   {
     "objectID": "index.html#video-repository",
@@ -25,7 +32,7 @@
     "href": "index.html#submit-your-video-to-our-website",
     "title": "The Statistical Consulting Training Repository Initiative",
     "section": "Submit your video to our website!",
-    "text": "Submit your video to our website!\nEveryone can submit their own video to this website via this form. New submissions will require the following:\n\nA YouTube link to their video (see production requirements below)\nA script\nA set of discussion questions\nAn acknowledgement of our contributor code of conduct\n\nVideo requirements:\n\nVideos must be audible. Closed-captioning should be provided (Youtube can do this automatically)\nVideos must be under 5 minutes in length\nMust conform to Youtube’s guidelines for all ages\nmore…"
+    "text": "Submit your video to our website!\nEveryone can submit their own video to this website via this form. New submissions will require the following:\n\nA YouTube link to their video (see production requirements below)\nA script\nA set of discussion questions\nAn acknowledgement of our contributor code of conduct\n\nVideo requirements:\n\nVideos must be audible. Closed-captioning should be provided (Youtube can do this automatically)\nVideos must be under 5 minutes in length\nMust conform to YouTube’s guidelines for all ages\nmore…"
   },
   {
     "objectID": "about.html",

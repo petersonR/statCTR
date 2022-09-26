@@ -1,1 +1,1 @@
-Sitemap: https://github.com/petersonR/statCTR/sitemap.xml
+Sitemap: https://www.statCTR.com/sitemap.xml
