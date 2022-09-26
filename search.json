@@ -1,5 +1,33 @@
 [
   {
+    "objectID": "codeofconduct.html",
+    "href": "codeofconduct.html",
+    "title": "Contributor Code of Conduct",
+    "section": "",
+    "text": "TBD…"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "The Statistical Consulting Training Repository Initiative",
+    "section": "",
+    "text": "Note: This page is in development; please check back soon.\nWelcome to StatCTR; a repository of publicly-contributed and publicly-available training resources for statistical consulting and collaboration. This page has our repository of training videos."
+  },
+  {
+    "objectID": "index.html#video-repository",
+    "href": "index.html#video-repository",
+    "title": "The Statistical Consulting Training Repository Initiative",
+    "section": "Video Repository",
+    "text": "Video Repository"
+  },
+  {
+    "objectID": "index.html#submit-your-video-to-our-website",
+    "href": "index.html#submit-your-video-to-our-website",
+    "title": "The Statistical Consulting Training Repository Initiative",
+    "section": "Submit your video to our website!",
+    "text": "Submit your video to our website!\nEveryone can submit their own video to this website via this form. New submissions will require the following:\n\nA YouTube link to their video (see production requirements below)\nA script\nA set of discussion questions\nAn acknowledgement of our contributor code of conduct\n\nVideo requirements:\n\nVideos must be audible. Closed-captioning should be provided (Youtube can do this automatically)\nVideos must be under 5 minutes in length\nMust conform to Youtube’s guidelines for all ages\nmore…"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -14,53 +42,11 @@
     "text": "History\nPlaceholder, why these videos were first started and by whom\nPlaceholder, a creative final project in Statistical Consulting"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "The Statistical Consulting Training Videos (StatCTV) Initiative",
-    "section": "",
-    "text": "Note: This page is in development; please check back soon.\nWelcome to StatCTV; a repository of publicly-contributed and publicly-available training videos for statistical consulting and collaboration."
-  },
-  {
-    "objectID": "index.html#video-repository",
-    "href": "index.html#video-repository",
-    "title": "The Statistical Consulting Training Videos (StatCTV) Initiative",
-    "section": "Video Repository",
-    "text": "Video Repository"
-  },
-  {
-    "objectID": "index.html#submit-your-video-to-our-website",
-    "href": "index.html#submit-your-video-to-our-website",
-    "title": "The Statistical Consulting Training Videos (StatCTV) Initiative",
-    "section": "Submit your video to our website!",
-    "text": "Submit your video to our website!\nEveryone can submit their own video to this website via this form. New submissions will require the following:\n\nA YouTube link to their video (see production requirements below)\nA script\nA set of discussion questions\nAn acknowledgement of our contributor code of conduct\n\nVideo requirements:\n\nVideos must be audible. Closed-captioning should be provided (Youtube can do this automatically)\nVideos must be under 5 minutes in length\nMust conform to Youtube’s guidelines for all ages\nmore…"
-  },
-  {
-    "objectID": "resources.html",
-    "href": "resources.html",
-    "title": "The Statistical Consulting Training Resource Repository",
-    "section": "",
-    "text": "Note: This page is in development; please check back soon."
-  },
-  {
-    "objectID": "resources.html#submit-your-resource-to-our-website",
-    "href": "resources.html#submit-your-resource-to-our-website",
-    "title": "The Statistical Consulting Training Resource Repository",
-    "section": "Submit your resource to our website!",
-    "text": "Submit your resource to our website!\nEveryone can submit their own resource to this website via this form. The list of existing submissions is below."
-  },
-  {
-    "objectID": "resources.html#resource-repository",
-    "href": "resources.html#resource-repository",
-    "title": "The Statistical Consulting Training Resource Repository",
-    "section": "Resource Repository",
-    "text": "Resource Repository"
-  },
-  {
     "objectID": "ReadMe.html",
     "href": "ReadMe.html",
-    "title": "statCTV",
+    "title": "statCTR",
     "section": "",
-    "text": "This is a Quarto website for the statistical consulting training videos initiative. The website is hosted at https://petersonr.github.io/statCTV/.\nIt is currently mostly a placeholder. The To-do list is the “Issues” page; please create a new issue to add items to the to-do list for this website."
+    "text": "This is a Quarto website for the statistical consulting training resources initiative. The website is hosted at https://petersonr.github.io/statCTR/, and will soon be also hosted at statCTR.com.\nIt is currently mostly a placeholder. The To-do list is the “Issues” page; please create a new issue to add items to the to-do list for this website."
   },
   {
     "objectID": "casestudies.html",
@@ -70,10 +56,24 @@
     "text": "TBD…"
   },
   {
-    "objectID": "codeofconduct.html",
-    "href": "codeofconduct.html",
-    "title": "Contributor Code of Conduct",
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Statistical Consulting Training Resources",
     "section": "",
-    "text": "TBD…"
+    "text": "Note: This page is in development; please check back soon."
+  },
+  {
+    "objectID": "resources.html#submit-your-resource-to-our-website",
+    "href": "resources.html#submit-your-resource-to-our-website",
+    "title": "Statistical Consulting Training Resources",
+    "section": "Submit your resource to our website!",
+    "text": "Submit your resource to our website!\nEveryone can submit their own resource to this website via this form. The list of existing submissions is below."
+  },
+  {
+    "objectID": "resources.html#resource-repository",
+    "href": "resources.html#resource-repository",
+    "title": "Statistical Consulting Training Resources",
+    "section": "Resource Repository",
+    "text": "Resource Repository"
   }
 ]
