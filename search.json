@@ -39,7 +39,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Ryan Peterson\nEmily Griffith\nJulia Sharp"
+    "text": "Ryan Peterson: personal website, ,  ,  \nEmily Griffith: personal website, \nJulia Sharp: personal website,"
   },
   {
     "objectID": "about.html#history",
@@ -53,7 +53,7 @@
     "href": "ReadMe.html",
     "title": "statCTR",
     "section": "",
-    "text": "This is a Quarto website for the statistical consulting training resources initiative. The website is hosted at https://petersonr.github.io/statCTR/, and will soon be also hosted at statCTR.com.\nIt is currently mostly a placeholder. The To-do list is the “Issues” page; please create a new issue to add items to the to-do list for this website."
+    "text": "This is a Quarto website for the statistical consulting training resources initiative. The website is hosted at statCTR.com.\nIt is currently mostly a placeholder. The To-do list is the “Issues” page; please create a new issue to add items to the to-do list for this website."
   },
   {
     "objectID": "casestudies.html",
