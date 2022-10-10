@@ -18,9 +18,25 @@ Welcome to StatCTR; a repository of publicly-contributed and publicly-available 
 library(dplyr)
 library(knitr)
 library(DT)
+library(googlesheets4)
 
-data.frame("Title" = rep("TBD", 5), "Keywords" = rep("TBD", 5), "Links" = rep("video; script; questions", 5)) %>% 
-  datatable(options=list(pageLength=10, autoWidth=TRUE), rownames=FALSE)
+x <- read_sheet('https://docs.google.com/spreadsheets/d/1FyySnon6m8YgjM0cp9MKkf37DB04aBSAqlD-WXpD8tk')
+
+x %>% 
+  rename(Title = `Video Title`, 
+         Keywords = `Please list 2-5 keywords (comma-separated, no words already in the title)`) %>% 
+  rename(
+    Video = `A link to your video on YouTube`, 
+    Script = `A link to a publicly-available version of your script (e.g. a Google Document).`, 
+    Questions = `A link to a publicly-available version of 3-6 discussion questions.`) %>% 
+  mutate(
+    Video = paste0('<a href="', Video, '">video</a>; '),
+    Script = paste0('<a href="', Script, '">script</a>; '),
+    Questions = paste0('<a href="', Questions, '">questions</a>')
+  ) %>% 
+  mutate(Links = paste0(Video, Script, Questions)) %>% 
+  select(Title, Keywords, Links) %>% 
+  datatable(options=list(pageLength=25, autoWidth=TRUE), rownames=FALSE, escape = FALSE, filter = "top")
 ```
 
 ## Submit your video to our website!
