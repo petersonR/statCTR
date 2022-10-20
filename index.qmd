@@ -2,8 +2,6 @@
 title: "The Statistical Consulting Training Repository Initiative"
 ---
 
-Note: This page is in development; please check back soon.
-
 ## Introduction
 
 Welcome to StatCTR; a repository of publicly-contributed and publicly-available training resources for statistical consulting and collaboration. The goal of this website is to provide an open-sourced, community-driven repository for:

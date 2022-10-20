@@ -2,13 +2,15 @@
 title: "Statistical Consulting Training Resources"
 ---
 
-Note: This page is in development; please check back soon.
-
 ## Submit your resource to our website!
 
 Everyone can submit their own resource to this website via [this form](https://forms.gle/GG3ao19WudScgZ838). The list of existing submissions is below.
 
 ## Resource Repository
+
+:::{.callout-note}
+Please [report an issue](https://github.com/petersonR/statCTR/issues/new) if you experience unexpected or broken links below.
+:::
 
 ```{r, echo = FALSE, message = FALSE}
 library(dplyr)
