@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "codeofconduct.html",
-    "href": "codeofconduct.html",
-    "title": "Contributor Code of Conduct",
+    "objectID": "ReadMe.html",
+    "href": "ReadMe.html",
+    "title": "statCTR",
     "section": "",
-    "text": "TBD…"
+    "text": "This is a Quarto website for the statistical consulting training resources initiative. The website is hosted at statCTR.com.\nIt is currently mostly a placeholder. The To-do list is the “Issues” page; please create a new issue to add items to the to-do list for this website."
   },
   {
     "objectID": "index.html",
@@ -25,14 +25,28 @@
     "href": "index.html#video-repository",
     "title": "The Statistical Consulting Training Repository Initiative",
     "section": "Video Repository",
-    "text": "Video Repository"
+    "text": "Video Repository\n\n\n\n\n\n\nNote\n\n\n\nPlease report an issue if you experience unexpected or broken links below."
   },
   {
     "objectID": "index.html#submit-your-video-to-our-website",
     "href": "index.html#submit-your-video-to-our-website",
     "title": "The Statistical Consulting Training Repository Initiative",
     "section": "Submit your video to our website!",
-    "text": "Submit your video to our website!\nEveryone can submit their own video to this website via this form. New submissions will require the following:\n\nA YouTube link to their video (see production requirements below)\nA script\nA set of discussion questions\nAn acknowledgement of our contributor code of conduct\n\nVideo requirements:\n\nVideos must be audible. Closed-captioning should be provided if feasible (Youtube can do this automatically)\nVideos must be under 6 minutes in length\nMust conform to YouTube’s guidelines for all ages\nAll actors/contributors must consent to public distribution\n\nWe wish to encourage creativity! We only request that the script is constrained to being believable and within the realm of reality for a statistical consultant.\nWe will review all submitted videos and vote on whether to include the video in this repository, based on the following criteria: script quality and content, quality of discussion questions, and video production quality."
+    "text": "Submit your video to our website!\nEveryone can submit their own video to this website via this form. New submissions will require the following:\n\nA YouTube link to their video (see production requirements below)\nA script\nA set of discussion questions\nAn acknowledgement of our contributor code of conduct\n\nVideo requirements:\n\nVideos must be audible. Closed-captioning should be provided if feasible (YouTube can do this automatically)\nVideos must be under 6 minutes in length\nMust conform to YouTube’s guidelines for all ages\nAll actors/contributors must consent to public distribution\n\nWe wish to encourage creativity! We only request that the script is constrained to being believable and within the realm of reality for a statistical consultant.\nWe will review all submitted videos and vote on whether to include the video in this repository, based on the following criteria: script quality and content, quality of discussion questions, and video production quality."
+  },
+  {
+    "objectID": "codeofconduct.html",
+    "href": "codeofconduct.html",
+    "title": "Contributor Code of Conduct",
+    "section": "",
+    "text": "Examples of unacceptable behavior include: use of sexualized language or imagery, and sexual attention or advances of any kind; trolling, insulting or derogatory comments, and personal or political attacks including gaslighting; public or private harassment; publishing or sharing others' private information without their explicit permission; and other conduct which could reasonably be considered inappropriate in a professional setting.\nProject maintainers have the right and responsibility to remove, edit, reject comments, videos, articles, and other contributions that are not aligned to this Code of Conduct. Project maintainers who do not follow the Code of Conduct may be removed from the project team.\nInstances of abusive, harassing, or otherwise unacceptable behavior may be reported to the repository maintainers.\nThis Contributor Code of Conduct is adapted from the Contributor Covenant, version 2.1 available at https://www.contributor-covenant.org/version/2/1/code_of_conduct.html."
+  },
+  {
+    "objectID": "casestudies.html",
+    "href": "casestudies.html",
+    "title": "Case Studies in Statistical Consulting and Collaboration",
+    "section": "",
+    "text": "The page under construction\n\n\n\nThis page is the future site of a repository for case studies in statistical consulting and collaboration."
   },
   {
     "objectID": "about.html",
@@ -47,20 +61,6 @@
     "title": "About",
     "section": "History",
     "text": "History\nPlaceholder, why these videos were first started and by whom\nPlaceholder, a creative final project in Statistical Consulting"
-  },
-  {
-    "objectID": "ReadMe.html",
-    "href": "ReadMe.html",
-    "title": "statCTR",
-    "section": "",
-    "text": "This is a Quarto website for the statistical consulting training resources initiative. The website is hosted at statCTR.com.\nIt is currently mostly a placeholder. The To-do list is the “Issues” page; please create a new issue to add items to the to-do list for this website."
-  },
-  {
-    "objectID": "casestudies.html",
-    "href": "casestudies.html",
-    "title": "Case Studies in Statistical Consulting",
-    "section": "",
-    "text": "TBD…"
   },
   {
     "objectID": "resources.html",
