@@ -11,14 +11,7 @@
     "href": "index.html",
     "title": "The Statistical Consulting Training Repository Initiative",
     "section": "",
-    "text": "Note: This page is in development; please check back soon."
-  },
-  {
-    "objectID": "index.html#introduction",
-    "href": "index.html#introduction",
-    "title": "The Statistical Consulting Training Repository Initiative",
-    "section": "Introduction",
-    "text": "Introduction\nWelcome to StatCTR; a repository of publicly-contributed and publicly-available training resources for statistical consulting and collaboration. The goal of this website is to provide an open-sourced, community-driven repository for:\n\nTraining videos\nPapers and online resources\nCase studies"
+    "text": "Welcome to StatCTR; a repository of publicly-contributed and publicly-available training resources for statistical consulting and collaboration. The goal of this website is to provide an open-sourced, community-driven repository for:\n\nTraining videos\nPapers and online resources\nCase studies"
   },
   {
     "objectID": "index.html#video-repository",
@@ -53,7 +46,14 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Ryan Peterson: personal website, ,  ,  \nEmily Griffith: personal website, \nJulia Sharp: personal website,"
+    "text": "Caution\n\n\n\nThis page is under construction"
+  },
+  {
+    "objectID": "about.html#who-we-are",
+    "href": "about.html#who-we-are",
+    "title": "About",
+    "section": "Who we are",
+    "text": "Who we are\n\nRyan Peterson: personal website, ,  ,  \nEmily Griffith: personal website, \nJulia Sharp: personal website,"
   },
   {
     "objectID": "about.html#history",
@@ -67,20 +67,13 @@
     "href": "resources.html",
     "title": "Statistical Consulting Training Resources",
     "section": "",
-    "text": "Note: This page is in development; please check back soon."
-  },
-  {
-    "objectID": "resources.html#submit-your-resource-to-our-website",
-    "href": "resources.html#submit-your-resource-to-our-website",
-    "title": "Statistical Consulting Training Resources",
-    "section": "Submit your resource to our website!",
-    "text": "Submit your resource to our website!\nEveryone can submit their own resource to this website via this form. The list of existing submissions is below."
+    "text": "Everyone can submit their own resource to this website via this form. The list of existing submissions is below."
   },
   {
     "objectID": "resources.html#resource-repository",
     "href": "resources.html#resource-repository",
     "title": "Statistical Consulting Training Resources",
     "section": "Resource Repository",
-    "text": "Resource Repository"
+    "text": "Resource Repository\n\n\n\n\n\n\nNote\n\n\n\nPlease report an issue if you experience unexpected or broken links below."
   }
 ]
