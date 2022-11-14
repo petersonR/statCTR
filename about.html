@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.1.251">
+<meta name="generator" content="quarto-1.2.269">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -109,16 +109,16 @@ cookieconsent.run({
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">Video Repository</a>
+    <a class="nav-link" href="./videos.html">
+ <span class="menu-text">Video Repository</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./resources.html">Resource Repository</a>
+    <a class="nav-link" href="./resources.html">
+ <span class="menu-text">Resource Repository</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./casestudies.html">Case Studies</a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page">About</a>
+    <a class="nav-link active" href="./about.html" aria-current="page">
+ <span class="menu-text">About</span></a>
   </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
@@ -153,25 +153,13 @@ cookieconsent.run({
 <div class="quarto-title-meta">
 
     
+  
     
   </div>
   
 
 </header>
 
-<div class="callout-caution callout callout-style-default callout-captioned">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-caption-container flex-fill">
-Caution
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>This page is under construction</p>
-</div>
-</div>
 <section id="who-we-are" class="level2">
 <h2 class="anchored" data-anchor-id="who-we-are">Who we are</h2>
 <ul>
@@ -182,8 +170,15 @@ Caution
 </section>
 <section id="history" class="level2">
 <h2 class="anchored" data-anchor-id="history">History</h2>
-<p>Placeholder, why these videos were first started and by whom</p>
-<p>Placeholder, a creative final project in Statistical Consulting</p>
+<p>Teaching statistical consulting, collaboration, and communication can be challenging. While there are many resources available, they may be difficult to find, share, and use.</p>
+<p>For example, Janice Derr’s classic textbook “Statistical Consulting: A Guide to Effective Communication” contains a terrific video storyline portraying positive and negative statistical consulting interactions (Derr 2000). However, while the videos are quite valuable, they are increasingly difficult to obtain as the textbook is out of print and the video file format is not widely supported.</p>
+<p>After discussing these concerns and finding a shared interest in new videos, Julia Sharp (Colorado State University), Megan Higgs (Critical Inference, LLC), and Emily Griffith (NC State University) were funded through the American Statistical Association’s member initiatives in 2019 to create a series of ten modern, freely available, collaboration training videos. The videos were filmed in October of 2019 at Colorado State University under the direction of video producer and videographer Mona Maser. The videos were posted on YouTube and the corresponding curriculum was published in the Journal of Statistics and Data Science Education (Sharp, Griffith, Higgs 2021).</p>
+<p>Ryan Peterson, Assistant Professor of Biostatistics at the Colorado School of Public Health at the University of Colorado, used the newer training videos in his course, Statistical Consulting I. One of the projects he created was for student groups to create their own videos illustrating an issue that can arise in collaborative statistical work.</p>
+<p>Inspired by the students’ work, Ryan Peterson, Julia Sharp, and Emily Griffith developed this video and resource repository. The video repository contains freely available videos that are useful for training and education in statistical collaboration and consulting.</p>
+<p>The resource repository is an extensive bibliography of works related to statistical collaboration and consulting, including articles focused on communication, career development, and more! We hope that you enjoy this resource, find it helpful, and invite you to add to it with your own work and the work of others that you enjoy!</p>
+<p><strong>References</strong></p>
+<p>Derr, J (2000), Statistical Consulting: A Guide to Effective Communication, Pacific Grove, CA: Brooks/Cole Press.</p>
+<p>Sharp, JL, EH Griffith, and MD Higgs (2021), “Setting the Stage: Statistical Collaboration Videos for Training the Next Generation of Applied Statisticians,” Journal of Statistics and Data Science Education, 29:2, 165-170, DOI: 10.1080/26939169.2021.1934202</p>
 
 
 </section>
@@ -230,7 +225,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -266,24 +278,42 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>

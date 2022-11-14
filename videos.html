@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.269">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>statCTR - Statistical Consulting Training Videos</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FL4BZV7N6M"></script>
+
+<script type="text/plain" cookie-consent="tracking">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-FL4BZV7N6M', { 'anonymize_ip': true});
+</script>
+
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({
+  "notice_banner_type":"simple",
+  "consent_type":"implied",
+  "palette":"light",
+  "language":"en",
+  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
+  "notice_banner_reject_button_hide":false,
+  "preferences_center_close_button_hide":false,
+  "website_name":""
+  });
+});
+</script> 
+  
+
+<script src="site_libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
+<link href="site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet">
+<script src="site_libs/datatables-binding-0.26/datatables.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<link href="site_libs/dt-core-1.12.1/css/jquery.dataTables.min.css" rel="stylesheet">
+<link href="site_libs/dt-core-1.12.1/css/jquery.dataTables.extra.css" rel="stylesheet">
+<script src="site_libs/dt-core-1.12.1/js/jquery.dataTables.min.js"></script>
+<link href="site_libs/nouislider-7.0.10/jquery.nouislider.min.css" rel="stylesheet">
+<script src="site_libs/nouislider-7.0.10/jquery.nouislider.min.js"></script>
+<link href="site_libs/selectize-0.12.0/selectize.bootstrap3.css" rel="stylesheet">
+<script src="site_libs/selectize-0.12.0/selectize.min.js"></script>
+<link href="site_libs/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet">
+<script src="site_libs/crosstalk-1.2.0/js/crosstalk.min.js"></script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">statCTR</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./videos.html" aria-current="page">
+ <span class="menu-text">Video Repository</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./resources.html">
+ <span class="menu-text">Resource Repository</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html">
+ <span class="menu-text">About</span></a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#video-repository" id="toc-video-repository" class="nav-link active" data-scroll-target="#video-repository">Video Repository</a></li>
+  <li><a href="#submit-your-video-to-our-website" id="toc-submit-your-video-to-our-website" class="nav-link" data-scroll-target="#submit-your-video-to-our-website">Submit your video to our website!</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/petersonR/statCTR/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Statistical Consulting Training Videos</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="video-repository" class="level2">
+<h2 class="anchored" data-anchor-id="video-repository">Video Repository</h2>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Please <a href="https://github.com/petersonR/statCTR/issues/new">report an issue</a> if you experience unexpected or broken links below.</p>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+
+<div id="htmlwidget-0642b862202d459433bb" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-0642b862202d459433bb">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["Countering stereotypical views of statisticians","Defining roles and scope of work","Turning down requests for new work from a current collaborator","Discussion about a realistic timeline for work","Beginning and ending a meeting effectively","Using statistical results to identify questions of interest","Statistically significant vs practically meaningful","Advocating for data visualization","Navigating requests related to p-hacking and survey validation","Pseudoreplication and refusal to use a statistician's advice"],["Statistician stereotype; project planning; study design; ANCOVA; active listening","Expectations; repeated measurements; funding expectations; thesis or dissertation; graduate student research; active listening; teaching","Understanding statistician workload capacity; funding; statistical support; declining requests; establishing boundaries; workload; negotiation","Understanding statistician workload capacity; timeline for analysis; data management; exploratory data analysis; descriptive analysis; coauthorship; workload; negotiation","Meeting structure; initial meeting; ethics; enforcing professional boundaries; active listening","Secondary data analysis; funding; identifying objectives; ethics; teaching","Sample size; statistical significance; practically meaningful effect; clinically significant; effect size","Data anomalies; exploratory data analysis; study design","Survey validation; clarifying research objectives; statistical significance; professional ethics","Publication with atypical analyses; discipline norms; coauthorship; ethics; acknowledgement for contributions; establishing professional boundaries; professional ethics"],["<a href=\"https://youtu.be/dx_W1Azvpf8\">video<\/a>; <a href=\"https://drive.google.com/file/d/1F-vG2M9RO9mVJPhE7RbmtbWJRL4GXCXl/view?usp=sharing\">script<\/a>; <a href=\"https://drive.google.com/file/d/1dBWHcvxyv_pNimsp30aWhfrRv3KIYhXN/view?usp=sharing\">questions<\/a>; <a href=\"Sharp, J.L., Griffith, E., and Higgs, M. (2020). Countering stereotypical views of statisticians [Video file]. https://youtu.be/dx_W1Azvpf8\">citation<\/a>","<a href=\"https://youtu.be/MgGvnyzxEXM\">video<\/a>; <a href=\"https://drive.google.com/file/d/1JRT3sbZSEv4VuBZU2qISAQscbvXjV3j4/view?usp=sharing\">script<\/a>; <a href=\"https://drive.google.com/file/d/1gqzGdrJmuErCsIrsb6Ee851Q6lNDJMiF/view?usp=sharing\">questions<\/a>; <a href=\"Sharp, J.L., Griffith, E., and Higgs, M. (2020). Defining roles and scope of work [Video file]. https://youtu.be/MgGvnyzxEXM\">citation<\/a>","<a href=\"https://youtu.be/cXJF6UqN5Y0\">video<\/a>; <a href=\"https://drive.google.com/file/d/127taFxU8PBYJBFmbhZ1uq_nwmykw4c_I/view?usp=sharing\">script<\/a>; <a href=\"https://drive.google.com/file/d/1sj8BiSp2pJhTJuZ3DojbSfBU0jQfwK44/view?usp=sharing\">questions<\/a>; <a href=\"Sharp, J.L., Griffith, E., and Higgs, M. (2020). Turning down requests for new work from a current collaborator [Video file]. https://youtu.be/cXJF6UqN5Y0\">citation<\/a>","<a href=\"https://youtu.be/ueF1oe0ct4s\">video<\/a>; <a href=\"https://drive.google.com/file/d/1R1UAo123jNWtC4aJ813SxG-mjEWk4MxH/view?usp=sharing\">script<\/a>; <a href=\"https://drive.google.com/file/d/1UzLjF39bqfbZJBhRKWiN006HEyCWfjHP/view?usp=sharing\">questions<\/a>; <a href=\"Sharp, J.L., Griffith, E., and Higgs, M. (2020). Discussion about a realistic timeline for work [Video file]. https://youtu.be/ueF1oe0ct4s\">citation<\/a>","<a href=\"https://youtu.be/_3l1DEXoXRM\">video<\/a>; <a href=\"https://drive.google.com/file/d/1S_hW-Zj2uDJY5yejjsGfXdSYkLsY5i7V/view?usp=sharing\">script<\/a>; <a href=\"https://drive.google.com/file/d/1R_1Rr5EIMQgOBNPPP5i9Ca9z4hj27-HR/view?usp=sharing\">questions<\/a>; <a href=\"Sharp, J.L., Griffith, E., and Higgs, M. (2020). Beginning and ending a meeting effectively [Video file]. https://youtu.be/_3l1DEXoXRM\">citation<\/a>","<a href=\"https://youtu.be/upkMfMF0k2k\">video<\/a>; <a href=\"https://drive.google.com/file/d/1QdNVX0QSJz01It6UxbVANuGHuiFei2b3/view?usp=sharing\">script<\/a>; <a href=\"https://drive.google.com/file/d/10gwyCnBxVuajK9gDL8SlW5L0xJK9Xb51/view?usp=sharing\">questions<\/a>; <a href=\"Sharp, J.L., Griffith, E., and Higgs, M. (2020). Using statistical results to identify questions of interest [Video file]. https://youtu.be/upkMfMF0k2k\">citation<\/a>","<a href=\"https://youtu.be/pj3zTdpj5VE\">video<\/a>; <a href=\"https://drive.google.com/file/d/1zhvvQZYRrebPFFtHqjfffZrfSA9cXEeH/view?usp=sharing\">script<\/a>; <a href=\"https://drive.google.com/file/d/14XgPx02o__ML5gzYBhlinM5QhJHbtXvS/view?usp=sharing\">questions<\/a>; <a href=\"Sharp, J.L., Griffith, E., and Higgs, M. (2020). Statistically significant vs practically meaningful [Video file]. https://youtu.be/pj3zTdpj5VE\">citation<\/a>","<a href=\"https://youtu.be/apTIZaMmbug\">video<\/a>; <a href=\"https://drive.google.com/file/d/1T_l3NIL2A8DXXkB3xooQHAhGJL7Ovu6Y/view?usp=sharing\">script<\/a>; <a href=\"https://drive.google.com/file/d/1BLumCr-r6ldYEgicoW091dqIwqjTJh0u/view?usp=sharing\">questions<\/a>; <a href=\"Sharp, J.L., Griffith, E., and Higgs, M. (2020). Advocating for data visualization [Video file]. https://youtu.be/apTIZaMmbug\">citation<\/a>","<a href=\"https://youtu.be/zMb2LmzYqes\">video<\/a>; <a href=\"https://drive.google.com/file/d/1LX7HxwLbugm7c7rIEAZPzHmCO2cJUQYX/view?usp=sharing\">script<\/a>; <a href=\"https://drive.google.com/file/d/1IlVOsooi2-3wHRU84gRwuwnsULq9JFEz/view?usp=sharing\">questions<\/a>; <a href=\"Sharp, J.L., Griffith, E., and Higgs, M. (2020). Navigating requests related to p-hacking and survey validation [Video file]. https://youtu.be/zMb2LmzYqes\">citation<\/a>","<a href=\"https://youtu.be/PJ6Fr5rRyTA\">video<\/a>; <a href=\"https://drive.google.com/file/d/1nI-zChUuGEYW0EzvL2JD-IgSC0MsUtR-/view?usp=sharing\">script<\/a>; <a href=\"https://drive.google.com/file/d/1OJyKj8H2cfXBfpcXDyOufeHFtYOTtz7T/view?usp=sharing\">questions<\/a>; <a href=\"Sharp, J.L., Griffith, E., and Higgs, M. (2020). Pseudoreplication and refusal to use a statistician's advice [Video file]. https://youtu.be/PJ6Fr5rRyTA\">citation<\/a>"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Title<\/th>\n      <th>Keywords<\/th>\n      <th>Links<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":15,"autoWidth":true,"columnDefs":[],"order":[],"orderClasses":false,"orderCellsTop":true,"lengthMenu":[10,15,25,50,100]}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section>
+<section id="submit-your-video-to-our-website" class="level2">
+<h2 class="anchored" data-anchor-id="submit-your-video-to-our-website">Submit your video to our website!</h2>
+<p>Everyone can submit their own video to this website via <a href="https://forms.gle/njjVuehXaDEALg4NA">this form</a>. New submissions will require the following:</p>
+<ul>
+<li>A YouTube link to their video (see production requirements below)</li>
+<li>A script</li>
+<li>A set of discussion questions</li>
+<li>An acknowledgement of our <a href="./codeofconduct.html">contributor code of conduct</a></li>
+</ul>
+<p>Video requirements:</p>
+<ul>
+<li>Videos must be audible. Closed-captioning should be provided if feasible (YouTube can do this automatically)</li>
+<li>Videos must be under 6 minutes in length</li>
+<li>Must conform to YouTube’s guidelines for all ages</li>
+<li>All actors/contributors must consent to public distribution</li>
+</ul>
+<p><strong>We wish to encourage creativity!</strong> We only request that the script is constrained to being believable and within the realm of reality for a statistical consultant.</p>
+<p>We will review all submitted videos and vote on whether to include the video in this repository, based on the following criteria: concept/topic, accuracy/understanding of statistical concepts, organization, script quality and content, video quality, discussion question quality, and adherence to contributor code of conduct. Videos may be resubmitted for approval if appropriate adjustments are made.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Copyright 2022, Ryan Peterson</div>   
+      <div class="nav-footer-center"><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+  </div>
+</footer>
+
+
+
+</body></html>
