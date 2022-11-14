@@ -1,8 +1,0 @@
----
-title: "Case Studies in Statistical Consulting and Collaboration"
----
-
-:::{.callout-caution}
-## The page under construction
-This page is the future site of a repository for case studies in statistical consulting and collaboration.  
-:::

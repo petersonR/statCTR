@@ -7,12 +7,10 @@ website:
   google-analytics: "G-FL4BZV7N6M"
   navbar:
     left:
-      - href: index.qmd
+      - href: videos.qmd
         text: Video Repository
       - href: resources.qmd
         text: Resource Repository
-      - href: casestudies.qmd
-        text: Case Studies
       - about.qmd
   page-footer: 
     left: "Copyright 2022, Ryan Peterson" 

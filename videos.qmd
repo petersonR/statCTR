@@ -1,0 +1,59 @@
+---
+title: "Statistical Consulting Training Videos"
+---
+
+## Video Repository
+
+::: callout-note
+Please [report an issue](https://github.com/petersonR/statCTR/issues/new) if you experience unexpected or broken links below.
+:::
+
+```{r, echo = FALSE, message = FALSE}
+library(dplyr)
+library(knitr)
+library(DT)
+library(googlesheets4)
+
+x <- read_sheet('https://docs.google.com/spreadsheets/d/1FyySnon6m8YgjM0cp9MKkf37DB04aBSAqlD-WXpD8tk')
+
+x %>% 
+  filter(Approved == "Yes") %>% 
+  rename(Title = `Video Title`, 
+         Keywords = `Please list 2-5 keywords (comma-separated, no words already in the title)`) %>% 
+  rename(
+    Video = `A link to your video on YouTube`, 
+    Script = `A link to a publicly-available version of your script (e.g. a Google Document).`,
+    Questions = `A link to a publicly-available version of 3-6 discussion questions.`,
+    Citation = `How would you like your video cited?`
+    ) %>% 
+  mutate(
+    Video = paste0('<a href="', Video, '">video</a>; '),
+    Script = paste0('<a href="', Script, '">script</a>; '),
+    Questions = paste0('<a href="', Questions, '">questions</a>; '),
+    Citation = paste0('<a href="', Citation, '">citation</a>')
+  ) %>% 
+  mutate(Links = paste0(Video, Script, Questions, Citation), 
+         Keywords = gsub(",", ";", Keywords)) %>% 
+  select(Title, Keywords, Links) %>% 
+  datatable(options=list(pageLength=15, autoWidth=TRUE), rownames=FALSE, escape = FALSE, filter = "top")
+```
+
+## Submit your video to our website!
+
+Everyone can submit their own video to this website via [this form](https://forms.gle/njjVuehXaDEALg4NA). New submissions will require the following:
+
+-   A YouTube link to their video (see production requirements below)
+-   A script
+-   A set of discussion questions
+-   An acknowledgement of our [contributor code of conduct](codeofconduct.qmd)
+
+Video requirements:
+
+-   Videos must be audible. Closed-captioning should be provided if feasible (YouTube can do this automatically)
+-   Videos must be under 6 minutes in length
+-   Must conform to YouTube's guidelines for all ages
+-   All actors/contributors must consent to public distribution
+
+**We wish to encourage creativity!** We only request that the script is constrained to being believable and within the realm of reality for a statistical consultant.
+
+We will review all submitted videos and vote on whether to include the video in this repository, based on the following criteria: concept/topic, accuracy/understanding of statistical concepts, organization, script quality and content, video quality,  discussion question quality, and adherence to contributor code of conduct. Videos may be resubmitted for approval if appropriate adjustments are made.  
