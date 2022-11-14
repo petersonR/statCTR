@@ -2,11 +2,6 @@
 title: "About"
 ---
 
-:::{.callout-caution}
-## Caution
-This page is under construction
-:::
-
 ## Who we are
 
 -   Ryan Peterson: [personal website](https://petersonR.github.io), <a href="https://www.twitter.com/ryan_peterson1">{{< fa brands twitter >}}</a>, <a href="https://github.com/petersonR"> {{< fa brands github >}}</a>, <a href="https://orcid.org/0000-0002-4650-5798"> {{< fa brands orcid >}}</a>
@@ -15,6 +10,22 @@ This page is under construction
 
 ## History
 
-Placeholder, why these videos were first started and by whom
+Teaching statistical consulting, collaboration, and communication can be challenging. While there are many resources available, they may be difficult to find, share, and use.
 
-Placeholder, a creative final project in Statistical Consulting
+For example, Janice Derr’s classic textbook “Statistical Consulting: A Guide to Effective Communication” contains a terrific video storyline portraying positive and negative statistical consulting interactions (Derr 2000). However, while the videos are quite valuable, they are increasingly difficult to obtain as the textbook is out of print and the video file format is not widely supported.  
+
+After discussing these concerns and finding a shared interest in new videos, Julia Sharp (Colorado State University), Megan Higgs (Critical Inference, LLC), and Emily Griffith (NC State University) were funded through the American Statistical Association’s member initiatives in 2019 to create a series of ten modern, freely available, collaboration training videos. The videos were filmed in October of 2019 at Colorado State University under the direction of video producer and videographer Mona Maser. The videos were posted on YouTube and the corresponding curriculum was published in the Journal of Statistics and Data Science Education (Sharp, Griffith, Higgs 2021).
+
+Ryan Peterson, Assistant Professor of Biostatistics at the Colorado School of Public Health at the University of Colorado, used the newer training videos in his course, Statistical Consulting I. One of the projects he created was for student groups to create their own videos illustrating an issue that can arise in collaborative statistical work. 
+
+Inspired by the students’ work, Ryan Peterson, Julia Sharp, and Emily Griffith developed this video and resource repository. The video repository contains freely available videos that are useful for training and education in statistical collaboration and consulting. 
+
+The resource repository is an extensive bibliography of works related to statistical collaboration and consulting, including articles focused on communication, career development, and more! 
+We hope that you enjoy this resource, find it helpful, and invite you to add to it with your own work and the work of others that you enjoy!
+
+**References**
+
+Derr, J (2000), Statistical Consulting: A Guide to Effective Communication, Pacific Grove, CA: Brooks/Cole Press. 
+
+Sharp, JL, EH Griffith, and MD Higgs (2021), “Setting the Stage: Statistical Collaboration Videos for Training the Next Generation of Applied Statisticians,” Journal of Statistics and Data Science Education, 29:2, 165-170, DOI: 10.1080/26939169.2021.1934202
+

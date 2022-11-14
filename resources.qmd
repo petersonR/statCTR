@@ -8,7 +8,7 @@ Everyone can submit their own resource to this website via [this form](https://f
 
 ## Resource Repository
 
-:::{.callout-note}
+::: callout-note
 Please [report an issue](https://github.com/petersonR/statCTR/issues/new) if you experience unexpected or broken links below.
 :::
 
