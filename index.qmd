@@ -16,7 +16,7 @@ Welcome to StatCTR; a repository of publicly-contributed and publicly-available 
 
 ## Submit to our repository! 
 
-We encourage you to submit resources to our resource or video repository. Here are [instructions for submitting a video](https://www.statctr.com/#submit-your-video-to-our-website) and the [form to fill out to submit a new resource](https://forms.gle/GG3ao19WudScgZ838).
+We encourage you to submit resources to our resource or video repository. Here are [instructions for submitting a video](videos.qmd#submit-your-video-to-our-website) and the [form to fill out to submit a new resource](https://forms.gle/GG3ao19WudScgZ838).
 
 ## Who we are 
 
