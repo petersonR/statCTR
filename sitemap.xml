@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.statCTR.com/ReadMe.html</loc>
-    <lastmod>2022-11-14T18:48:14.002Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.statCTR.com/index.html</loc>
-    <lastmod>2022-11-14T18:48:14.674Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.statCTR.com/codeofconduct.html</loc>
-    <lastmod>2022-11-14T18:48:14.986Z</lastmod>
-  </url>
-  <url>
     <loc>https://www.statCTR.com/videos.html</loc>
-    <lastmod>2022-11-14T18:48:15.310Z</lastmod>
+    <lastmod>2022-11-28T22:10:57.306Z</lastmod>
   </url>
   <url>
     <loc>https://www.statCTR.com/about.html</loc>
-    <lastmod>2022-11-14T18:48:15.634Z</lastmod>
+    <lastmod>2022-11-28T22:10:58.090Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.statCTR.com/index.html</loc>
+    <lastmod>2022-11-28T22:10:58.426Z</lastmod>
   </url>
   <url>
     <loc>https://www.statCTR.com/resources.html</loc>
-    <lastmod>2022-11-14T18:48:15.942Z</lastmod>
+    <lastmod>2022-11-28T22:10:58.790Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.statCTR.com/codeofconduct.html</loc>
+    <lastmod>2022-11-28T22:10:59.142Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.statCTR.com/ReadMe.html</loc>
+    <lastmod>2022-11-28T22:10:59.450Z</lastmod>
   </url>
 </urlset>
