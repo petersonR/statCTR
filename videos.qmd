@@ -56,4 +56,4 @@ Video requirements:
 
 **We wish to encourage creativity!** We only request that the script is constrained to being believable and within the realm of reality for a statistical consultant.
 
-We will review all submitted videos and vote on whether to include the video in this repository, based on a [rubric](videorubric.pdf) assessing: concept/topic, accuracy/understanding of statistical concepts, organization, script quality and content, video quality,  discussion question quality, and adherence to contributor code of conduct. Videos may be resubmitted for approval if appropriate adjustments are made.  
+We will review all submitted videos and vote on whether to include the video in this repository, based on a [rubric](videorubric.pdf) assessing: concept/topic, accuracy/understanding of statistical concepts, organization, script quality and content, video quality, discussion question quality, and adherence to contributor code of conduct. Videos may be resubmitted for approval if appropriate adjustments are made.
