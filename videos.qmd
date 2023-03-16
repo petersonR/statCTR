@@ -19,7 +19,7 @@ x <- read_sheet('https://docs.google.com/spreadsheets/d/1FyySnon6m8YgjM0cp9MKkf3
 x %>% 
   filter(Approved == "Yes") %>% 
   rename(Title = `Video Title`, 
-         Keywords = `Please list 2-5 keywords (comma-separated, no words already in the title)`) %>% 
+         Keywords = `Please list 2-5 keywords (comma-separated, no words already in the title). If you are a student, include \"student-led\".`) %>% 
   rename(
     Video = `A link to your video on YouTube`, 
     Script = `A link to a publicly-available version of your script (e.g. a Google Document).`,
@@ -40,7 +40,9 @@ x %>%
 
 ## Submit your video to our website!
 
-Everyone can submit their own video to this website via [this form](https://forms.gle/njjVuehXaDEALg4NA). New submissions will require the following:
+Everyone can submit their own video to this website via [this form](https://forms.gle/njjVuehXaDEALg4NA). We will review all submitted videos and vote on whether to include the video in this repository, based on a [rubric](videorubric.pdf) assessing: concept/topic, accuracy/understanding of statistical concepts, organization, script quality and content, video quality, discussion question quality, and adherence to contributor code of conduct. Videos may be resubmitted for approval if appropriate adjustments are made.
+
+New submissions will require the following:
 
 -   A YouTube link to their video (see production requirements below)
 -   A script
@@ -49,11 +51,10 @@ Everyone can submit their own video to this website via [this form](https://form
 
 Video requirements:
 
--   Videos must be audible. Closed-captioning should be provided if feasible (YouTube can do this automatically)
+-   Videos must be audible. 
+-   Closed-captioning should be provided (YouTube can do this automatically)
 -   Videos must be under 6 minutes in length
 -   Must conform to YouTube's guidelines for all ages
 -   All actors/contributors must consent to public distribution
 
 **We wish to encourage creativity!** We only request that the script is constrained to being believable and within the realm of reality for a statistical consultant.
-
-We will review all submitted videos and vote on whether to include the video in this repository, based on a [rubric](videorubric.pdf) assessing: concept/topic, accuracy/understanding of statistical concepts, organization, script quality and content, video quality,  discussion question quality, and adherence to contributor code of conduct. Videos may be resubmitted for approval if appropriate adjustments are made.  
