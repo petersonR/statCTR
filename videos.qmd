@@ -52,9 +52,10 @@ New submissions will require the following:
 Video requirements:
 
 -   Videos must be audible. 
--   Closed-captioning should be provided (YouTube can do this automatically)
+-   Closed-captioning should be provided (see YouTube instructions [here](https://support.google.com/youtube/answer/2734796?hl=en))
 -   Videos must be under 6 minutes in length
 -   Must conform to YouTube's guidelines for all ages
 -   All actors/contributors must consent to public distribution
 
 **We wish to encourage creativity!** We only request that the script is constrained to being believable and within the realm of reality for a statistical consultant.
+
