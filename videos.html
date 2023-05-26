@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.335">
+<meta name="generator" content="quarto-1.3.357">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -57,7 +57,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FL4BZV7N6M"></script>
@@ -86,9 +87,9 @@ cookieconsent.run({
 </script> 
   
 
-<script src="site_libs/htmlwidgets-1.6.1/htmlwidgets.js"></script>
+<script src="site_libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
 <link href="site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet">
-<script src="site_libs/datatables-binding-0.27/datatables.js"></script>
+<script src="site_libs/datatables-binding-0.26/datatables.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <link href="site_libs/dt-core-1.12.1/css/jquery.dataTables.min.css" rel="stylesheet">
 <link href="site_libs/dt-core-1.12.1/css/jquery.dataTables.extra.css" rel="stylesheet">
@@ -115,25 +116,27 @@ cookieconsent.run({
     <span class="navbar-title">statCTR</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./videos.html" aria-current="page">
+    <a class="nav-link active" href="./videos.html" rel="" target="" aria-current="page">
  <span class="menu-text">Video Repository</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./resources.html">
+    <a class="nav-link" href="./resources.html" rel="" target="">
  <span class="menu-text">Resource Repository</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html">
+    <a class="nav-link" href="./about.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -174,12 +177,12 @@ cookieconsent.run({
 
 <section id="video-repository" class="level2">
 <h2 class="anchored" data-anchor-id="video-repository">Video Repository</h2>
-<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Note
 </div>
 </div>
@@ -190,8 +193,8 @@ Note
 <div class="cell">
 <div class="cell-output-display">
 
-<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-68476f240dcac4025d6f" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-68476f240dcac4025d6f">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["Countering stereotypical views of statisticians","Defining roles and scope of work","Turning down requests for new work from a current collaborator","Discussion about a realistic timeline for work","Beginning and ending a meeting effectively","Using statistical results to identify questions of interest","Statistically significant vs practically meaningful","Advocating for data visualization","Navigating requests related to p-hacking and survey validation","Pseudoreplication and refusal to use a statistician's advice","Scope Creep"],["Statistician stereotype; project planning; study design; ANCOVA; active listening","Expectations; repeated measurements; funding expectations; thesis or dissertation; graduate student research; active listening; teaching","Understanding statistician workload capacity; funding; statistical support; declining requests; establishing boundaries; workload; negotiation","Understanding statistician workload capacity; timeline for analysis; data management; exploratory data analysis; descriptive analysis; coauthorship; workload; negotiation","Meeting structure; initial meeting; ethics; enforcing professional boundaries; active listening","Secondary data analysis; funding; identifying objectives; ethics; teaching","Sample size; statistical significance; practically meaningful effect; clinically significant; effect size","Data anomalies; exploratory data analysis; study design","Survey validation; clarifying research objectives; statistical significance; professional ethics","Publication with atypical analyses; discipline norms; coauthorship; ethics; acknowledgement for contributions; establishing professional boundaries; professional ethics","project design; project management; consulting; student-led"],["<a href=\"https://youtu.be/dx_W1Azvpf8\">video<\/a>; <a href=\"https://drive.google.com/file/d/1F-vG2M9RO9mVJPhE7RbmtbWJRL4GXCXl/view?usp=sharing\">script<\/a>; <a href=\"https://drive.google.com/file/d/1dBWHcvxyv_pNimsp30aWhfrRv3KIYhXN/view?usp=sharing\">questions<\/a>; <a href=\"Sharp, J.L., Griffith, E., and Higgs, M. (2020). Countering stereotypical views of statisticians [Video file]. https://youtu.be/dx_W1Azvpf8\">citation<\/a>","<a href=\"https://youtu.be/MgGvnyzxEXM\">video<\/a>; <a href=\"https://drive.google.com/file/d/1JRT3sbZSEv4VuBZU2qISAQscbvXjV3j4/view?usp=sharing\">script<\/a>; <a href=\"https://drive.google.com/file/d/1gqzGdrJmuErCsIrsb6Ee851Q6lNDJMiF/view?usp=sharing\">questions<\/a>; <a href=\"Sharp, J.L., Griffith, E., and Higgs, M. (2020). Defining roles and scope of work [Video file]. https://youtu.be/MgGvnyzxEXM\">citation<\/a>","<a href=\"https://youtu.be/cXJF6UqN5Y0\">video<\/a>; <a href=\"https://drive.google.com/file/d/127taFxU8PBYJBFmbhZ1uq_nwmykw4c_I/view?usp=sharing\">script<\/a>; <a href=\"https://drive.google.com/file/d/1sj8BiSp2pJhTJuZ3DojbSfBU0jQfwK44/view?usp=sharing\">questions<\/a>; <a href=\"Sharp, J.L., Griffith, E., and Higgs, M. (2020). Turning down requests for new work from a current collaborator [Video file]. https://youtu.be/cXJF6UqN5Y0\">citation<\/a>","<a href=\"https://youtu.be/ueF1oe0ct4s\">video<\/a>; <a href=\"https://drive.google.com/file/d/1R1UAo123jNWtC4aJ813SxG-mjEWk4MxH/view?usp=sharing\">script<\/a>; <a href=\"https://drive.google.com/file/d/1UzLjF39bqfbZJBhRKWiN006HEyCWfjHP/view?usp=sharing\">questions<\/a>; <a href=\"Sharp, J.L., Griffith, E., and Higgs, M. (2020). Discussion about a realistic timeline for work [Video file]. https://youtu.be/ueF1oe0ct4s\">citation<\/a>","<a href=\"https://youtu.be/_3l1DEXoXRM\">video<\/a>; <a href=\"https://drive.google.com/file/d/1S_hW-Zj2uDJY5yejjsGfXdSYkLsY5i7V/view?usp=sharing\">script<\/a>; <a href=\"https://drive.google.com/file/d/1R_1Rr5EIMQgOBNPPP5i9Ca9z4hj27-HR/view?usp=sharing\">questions<\/a>; <a href=\"Sharp, J.L., Griffith, E., and Higgs, M. (2020). Beginning and ending a meeting effectively [Video file]. https://youtu.be/_3l1DEXoXRM\">citation<\/a>","<a href=\"https://youtu.be/upkMfMF0k2k\">video<\/a>; <a href=\"https://drive.google.com/file/d/1QdNVX0QSJz01It6UxbVANuGHuiFei2b3/view?usp=sharing\">script<\/a>; <a href=\"https://drive.google.com/file/d/10gwyCnBxVuajK9gDL8SlW5L0xJK9Xb51/view?usp=sharing\">questions<\/a>; <a href=\"Sharp, J.L., Griffith, E., and Higgs, M. (2020). Using statistical results to identify questions of interest [Video file]. https://youtu.be/upkMfMF0k2k\">citation<\/a>","<a href=\"https://youtu.be/pj3zTdpj5VE\">video<\/a>; <a href=\"https://drive.google.com/file/d/1zhvvQZYRrebPFFtHqjfffZrfSA9cXEeH/view?usp=sharing\">script<\/a>; <a href=\"https://drive.google.com/file/d/14XgPx02o__ML5gzYBhlinM5QhJHbtXvS/view?usp=sharing\">questions<\/a>; <a href=\"Sharp, J.L., Griffith, E., and Higgs, M. (2020). Statistically significant vs practically meaningful [Video file]. https://youtu.be/pj3zTdpj5VE\">citation<\/a>","<a href=\"https://youtu.be/apTIZaMmbug\">video<\/a>; <a href=\"https://drive.google.com/file/d/1T_l3NIL2A8DXXkB3xooQHAhGJL7Ovu6Y/view?usp=sharing\">script<\/a>; <a href=\"https://drive.google.com/file/d/1BLumCr-r6ldYEgicoW091dqIwqjTJh0u/view?usp=sharing\">questions<\/a>; <a href=\"Sharp, J.L., Griffith, E., and Higgs, M. (2020). Advocating for data visualization [Video file]. https://youtu.be/apTIZaMmbug\">citation<\/a>","<a href=\"https://youtu.be/zMb2LmzYqes\">video<\/a>; <a href=\"https://drive.google.com/file/d/1LX7HxwLbugm7c7rIEAZPzHmCO2cJUQYX/view?usp=sharing\">script<\/a>; <a href=\"https://drive.google.com/file/d/1IlVOsooi2-3wHRU84gRwuwnsULq9JFEz/view?usp=sharing\">questions<\/a>; <a href=\"Sharp, J.L., Griffith, E., and Higgs, M. (2020). Navigating requests related to p-hacking and survey validation [Video file]. https://youtu.be/zMb2LmzYqes\">citation<\/a>","<a href=\"https://youtu.be/PJ6Fr5rRyTA\">video<\/a>; <a href=\"https://drive.google.com/file/d/1nI-zChUuGEYW0EzvL2JD-IgSC0MsUtR-/view?usp=sharing\">script<\/a>; <a href=\"https://drive.google.com/file/d/1OJyKj8H2cfXBfpcXDyOufeHFtYOTtz7T/view?usp=sharing\">questions<\/a>; <a href=\"Sharp, J.L., Griffith, E., and Higgs, M. (2020). Pseudoreplication and refusal to use a statistician's advice [Video file]. https://youtu.be/PJ6Fr5rRyTA\">citation<\/a>","<a href=\"https://youtu.be/q57yQqolGL4\">video<\/a>; <a href=\"https://docs.google.com/document/d/1NYcYazKxtp5KVEBBGYbX9QM3aRMoFzJLK4ibeOUWVBg/edit?usp=sharing\">script<\/a>; <a href=\"https://docs.google.com/document/d/19DS3h1EQbVaq8QGKyLXqlJhQEJKwgBmhKJ1xUSOhjUk/edit?usp=sharing\">questions<\/a>; <a href=\"Written by Morgan MacBeth, Thomas Siebelink, and Carol Kiekhaefer. Shot and edited by Alexander Abbott.\">citation<\/a>"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Title<\/th>\n      <th>Keywords<\/th>\n      <th>Links<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":15,"autoWidth":true,"columnDefs":[],"order":[],"orderClasses":false,"orderCellsTop":true,"lengthMenu":[10,15,25,50,100]}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-8f45b6d77cdfe786a37b" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-8f45b6d77cdfe786a37b">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["Countering stereotypical views of statisticians","Defining roles and scope of work","Turning down requests for new work from a current collaborator","Discussion about a realistic timeline for work","Beginning and ending a meeting effectively","Using statistical results to identify questions of interest","Statistically significant vs practically meaningful","Advocating for data visualization","Navigating requests related to p-hacking and survey validation","Pseudoreplication and refusal to use a statistician's advice","Scope Creep","Handling Confrontation: Statistical Consulting"],["Statistician stereotype; project planning; study design; ANCOVA; active listening","Expectations; repeated measurements; funding expectations; thesis or dissertation; graduate student research; active listening; teaching","Understanding statistician workload capacity; funding; statistical support; declining requests; establishing boundaries; workload; negotiation","Understanding statistician workload capacity; timeline for analysis; data management; exploratory data analysis; descriptive analysis; coauthorship; workload; negotiation","Meeting structure; initial meeting; ethics; enforcing professional boundaries; active listening","Secondary data analysis; funding; identifying objectives; ethics; teaching","Sample size; statistical significance; practically meaningful effect; clinically significant; effect size","Data anomalies; exploratory data analysis; study design","Survey validation; clarifying research objectives; statistical significance; professional ethics","Publication with atypical analyses; discipline norms; coauthorship; ethics; acknowledgement for contributions; establishing professional boundaries; professional ethics","project design; project management; consulting; student-led","Conflict; Negotiation; student-led"],["<a href=\"https://youtu.be/dx_W1Azvpf8\">video<\/a>; <a href=\"https://drive.google.com/file/d/1F-vG2M9RO9mVJPhE7RbmtbWJRL4GXCXl/view?usp=sharing\">script<\/a>; <a href=\"https://drive.google.com/file/d/1dBWHcvxyv_pNimsp30aWhfrRv3KIYhXN/view?usp=sharing\">questions<\/a>; <a href=\"Sharp, J.L., Griffith, E., and Higgs, M. (2020). Countering stereotypical views of statisticians [Video file]. https://youtu.be/dx_W1Azvpf8\">citation<\/a>","<a href=\"https://youtu.be/MgGvnyzxEXM\">video<\/a>; <a href=\"https://drive.google.com/file/d/1JRT3sbZSEv4VuBZU2qISAQscbvXjV3j4/view?usp=sharing\">script<\/a>; <a href=\"https://drive.google.com/file/d/1gqzGdrJmuErCsIrsb6Ee851Q6lNDJMiF/view?usp=sharing\">questions<\/a>; <a href=\"Sharp, J.L., Griffith, E., and Higgs, M. (2020). Defining roles and scope of work [Video file]. https://youtu.be/MgGvnyzxEXM\">citation<\/a>","<a href=\"https://youtu.be/cXJF6UqN5Y0\">video<\/a>; <a href=\"https://drive.google.com/file/d/127taFxU8PBYJBFmbhZ1uq_nwmykw4c_I/view?usp=sharing\">script<\/a>; <a href=\"https://drive.google.com/file/d/1sj8BiSp2pJhTJuZ3DojbSfBU0jQfwK44/view?usp=sharing\">questions<\/a>; <a href=\"Sharp, J.L., Griffith, E., and Higgs, M. (2020). Turning down requests for new work from a current collaborator [Video file]. https://youtu.be/cXJF6UqN5Y0\">citation<\/a>","<a href=\"https://youtu.be/ueF1oe0ct4s\">video<\/a>; <a href=\"https://drive.google.com/file/d/1R1UAo123jNWtC4aJ813SxG-mjEWk4MxH/view?usp=sharing\">script<\/a>; <a href=\"https://drive.google.com/file/d/1UzLjF39bqfbZJBhRKWiN006HEyCWfjHP/view?usp=sharing\">questions<\/a>; <a href=\"Sharp, J.L., Griffith, E., and Higgs, M. (2020). Discussion about a realistic timeline for work [Video file]. https://youtu.be/ueF1oe0ct4s\">citation<\/a>","<a href=\"https://youtu.be/_3l1DEXoXRM\">video<\/a>; <a href=\"https://drive.google.com/file/d/1S_hW-Zj2uDJY5yejjsGfXdSYkLsY5i7V/view?usp=sharing\">script<\/a>; <a href=\"https://drive.google.com/file/d/1R_1Rr5EIMQgOBNPPP5i9Ca9z4hj27-HR/view?usp=sharing\">questions<\/a>; <a href=\"Sharp, J.L., Griffith, E., and Higgs, M. (2020). Beginning and ending a meeting effectively [Video file]. https://youtu.be/_3l1DEXoXRM\">citation<\/a>","<a href=\"https://youtu.be/upkMfMF0k2k\">video<\/a>; <a href=\"https://drive.google.com/file/d/1QdNVX0QSJz01It6UxbVANuGHuiFei2b3/view?usp=sharing\">script<\/a>; <a href=\"https://drive.google.com/file/d/10gwyCnBxVuajK9gDL8SlW5L0xJK9Xb51/view?usp=sharing\">questions<\/a>; <a href=\"Sharp, J.L., Griffith, E., and Higgs, M. (2020). Using statistical results to identify questions of interest [Video file]. https://youtu.be/upkMfMF0k2k\">citation<\/a>","<a href=\"https://youtu.be/pj3zTdpj5VE\">video<\/a>; <a href=\"https://drive.google.com/file/d/1zhvvQZYRrebPFFtHqjfffZrfSA9cXEeH/view?usp=sharing\">script<\/a>; <a href=\"https://drive.google.com/file/d/14XgPx02o__ML5gzYBhlinM5QhJHbtXvS/view?usp=sharing\">questions<\/a>; <a href=\"Sharp, J.L., Griffith, E., and Higgs, M. (2020). Statistically significant vs practically meaningful [Video file]. https://youtu.be/pj3zTdpj5VE\">citation<\/a>","<a href=\"https://youtu.be/apTIZaMmbug\">video<\/a>; <a href=\"https://drive.google.com/file/d/1T_l3NIL2A8DXXkB3xooQHAhGJL7Ovu6Y/view?usp=sharing\">script<\/a>; <a href=\"https://drive.google.com/file/d/1BLumCr-r6ldYEgicoW091dqIwqjTJh0u/view?usp=sharing\">questions<\/a>; <a href=\"Sharp, J.L., Griffith, E., and Higgs, M. (2020). Advocating for data visualization [Video file]. https://youtu.be/apTIZaMmbug\">citation<\/a>","<a href=\"https://youtu.be/zMb2LmzYqes\">video<\/a>; <a href=\"https://drive.google.com/file/d/1LX7HxwLbugm7c7rIEAZPzHmCO2cJUQYX/view?usp=sharing\">script<\/a>; <a href=\"https://drive.google.com/file/d/1IlVOsooi2-3wHRU84gRwuwnsULq9JFEz/view?usp=sharing\">questions<\/a>; <a href=\"Sharp, J.L., Griffith, E., and Higgs, M. (2020). Navigating requests related to p-hacking and survey validation [Video file]. https://youtu.be/zMb2LmzYqes\">citation<\/a>","<a href=\"https://youtu.be/PJ6Fr5rRyTA\">video<\/a>; <a href=\"https://drive.google.com/file/d/1nI-zChUuGEYW0EzvL2JD-IgSC0MsUtR-/view?usp=sharing\">script<\/a>; <a href=\"https://drive.google.com/file/d/1OJyKj8H2cfXBfpcXDyOufeHFtYOTtz7T/view?usp=sharing\">questions<\/a>; <a href=\"Sharp, J.L., Griffith, E., and Higgs, M. (2020). Pseudoreplication and refusal to use a statistician's advice [Video file]. https://youtu.be/PJ6Fr5rRyTA\">citation<\/a>","<a href=\"https://youtu.be/q57yQqolGL4\">video<\/a>; <a href=\"https://docs.google.com/document/d/1NYcYazKxtp5KVEBBGYbX9QM3aRMoFzJLK4ibeOUWVBg/edit?usp=sharing\">script<\/a>; <a href=\"https://docs.google.com/document/d/19DS3h1EQbVaq8QGKyLXqlJhQEJKwgBmhKJ1xUSOhjUk/edit?usp=sharing\">questions<\/a>; <a href=\"Written by Morgan MacBeth, Thomas Siebelink, and Carol Kiekhaefer. Shot and edited by Alexander Abbott.\">citation<\/a>","<a href=\"https://www.youtube.com/watch?v=jyvPbtgx4EM\">video<\/a>; <a href=\"https://docs.google.com/document/d/1Kr8kj1niEdr5jJGg5zIgGMrMfq2uLJKo90_tu_uHDOo/edit?usp=sharing\">script<\/a>; <a href=\"https://docs.google.com/document/d/1Kr8kj1niEdr5jJGg5zIgGMrMfq2uLJKo90_tu_uHDOo/edit?usp=sharing\">questions<\/a>; <a href=\"NA\">citation<\/a>"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Title<\/th>\n      <th>Keywords<\/th>\n      <th>Links<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":15,"autoWidth":true,"columnDefs":[],"order":[],"orderClasses":false,"orderCellsTop":true,"lengthMenu":[10,15,25,50,100]}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 </section>
@@ -246,9 +249,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -313,6 +330,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -356,7 +459,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">Copyright 2022, Ryan Peterson</div>   
-      <div class="nav-footer-center"><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+    <div class="nav-footer-center"><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
   </div>
 </footer>
 
