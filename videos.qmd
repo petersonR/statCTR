@@ -29,10 +29,10 @@ x %>%
   mutate(
     Video = paste0('<a href="', Video, '">video</a>; '),
     Script = paste0('<a href="', Script, '">script</a>; '),
-    Questions = paste0('<a href="', Questions, '">questions</a>; '),
+    Questions = paste0('<a href="', Questions, '">questions</a>'),
     Citation = paste0('<a href="', Citation, '">citation</a>')
   ) %>% 
-  mutate(Links = paste0(Video, Script, Questions, Citation), 
+  mutate(Links = paste0(Video, Script, Questions), 
          Keywords = gsub(",", ";", Keywords)) %>% 
   select(Title, Keywords, Links) %>% 
   datatable(options=list(pageLength=15, autoWidth=TRUE), rownames=FALSE, escape = FALSE, filter = "top")
