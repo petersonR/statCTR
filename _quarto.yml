@@ -13,7 +13,7 @@ website:
         text: Resource Repository
       - about.qmd
   page-footer: 
-    left: "Copyright 2022, Ryan Peterson" 
+    left: "&copy; Ryan Peterson 2023" 
   repo-url: https://github.com/petersonR/statCTR
   repo-actions: [issue]
   cookie-consent: true 
