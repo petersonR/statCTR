@@ -1,26 +1,5 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "Ryan Peterson: personal website, ,  ,  \nEmily Griffith: personal website, \nJulia Sharp: personal website,"
-  },
-  {
-    "objectID": "about.html#who-we-are",
-    "href": "about.html#who-we-are",
-    "title": "About",
-    "section": "",
-    "text": "Ryan Peterson: personal website, ,  ,  \nEmily Griffith: personal website, \nJulia Sharp: personal website,"
-  },
-  {
-    "objectID": "about.html#history",
-    "href": "about.html#history",
-    "title": "About",
-    "section": "History",
-    "text": "History\nTeaching statistical consulting, collaboration, and communication can be challenging. While there are many resources available, they may be difficult to find, share, and use.\nFor example, Janice Derr’s classic textbook “Statistical Consulting: A Guide to Effective Communication” contains a terrific video storyline portraying positive and negative statistical consulting interactions (Derr 2000). However, while the videos are quite valuable, they are increasingly difficult to obtain as the textbook is out of print and the video file format is not widely supported.\nAfter discussing these concerns and finding a shared interest in new videos, Julia Sharp (Colorado State University), Megan Higgs (Critical Inference, LLC), and Emily Griffith (NC State University) were funded through the American Statistical Association’s member initiatives in 2019 to create a series of ten modern, freely available, collaboration training videos. The videos were filmed in October of 2019 at Colorado State University under the direction of video producer and videographer Mona Maser. The videos were posted on YouTube and the corresponding curriculum was published in the Journal of Statistics and Data Science Education (Sharp, Griffith, Higgs 2021).\nRyan Peterson, Assistant Professor of Biostatistics at the Colorado School of Public Health at the University of Colorado, used the newer training videos in his course, Statistical Consulting I. One of the projects he created was for student groups to create their own videos illustrating an issue that can arise in collaborative statistical work.\nInspired by the students’ work, Ryan Peterson, Julia Sharp, and Emily Griffith developed this video and resource repository. The video repository contains freely available videos that are useful for training and education in statistical collaboration and consulting.\nThe resource repository is an extensive bibliography of works related to statistical collaboration and consulting, including articles focused on communication, career development, and more! We hope that you enjoy this resource, find it helpful, and invite you to add to it with your own work and the work of others that you enjoy!\nReferences\nDerr, J (2000), Statistical Consulting: A Guide to Effective Communication, Pacific Grove, CA: Brooks/Cole Press.\nSharp, JL, EH Griffith, and MD Higgs (2021), “Setting the Stage: Statistical Collaboration Videos for Training the Next Generation of Applied Statisticians,” Journal of Statistics and Data Science Education, 29:2, 165-170, DOI: 10.1080/26939169.2021.1934202"
-  },
-  {
     "objectID": "codeofconduct.html",
     "href": "codeofconduct.html",
     "title": "Contributor Code of Conduct",
@@ -28,25 +7,25 @@
     "text": "As contributors and maintainers to this repository, we agree to respect other contributors, the maintainers, and potential users of the repository. We will report issues and provide appropriate documentation as appropriate. As participants in this community, we pledge to a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, religion, or sexual identity and orientation.\nExamples of unacceptable behavior include: use of sexualized language or imagery, and sexual attention or advances of any kind; trolling, insulting or derogatory comments, and personal or political attacks including gaslighting; public or private harassment; publishing or sharing others’ private information without their explicit permission; and other conduct which could reasonably be considered inappropriate in a professional setting.\nProject maintainers have the right and responsibility to remove, edit, reject comments, videos, articles, and other contributions that are not aligned to this Code of Conduct. Project maintainers who do not follow the Code of Conduct may be removed from the project team.\nInstances of abusive, harassing, or otherwise unacceptable behavior may be reported to the repository maintainers.\nThis Contributor Code of Conduct is adapted from the Contributor Covenant, version 2.1 available at https://www.contributor-covenant.org/version/2/1/code_of_conduct.html."
   },
   {
-    "objectID": "resources.html",
-    "href": "resources.html",
-    "title": "Statistical Consulting Training Resources",
+    "objectID": "videos.html",
+    "href": "videos.html",
+    "title": "Statistical Consulting Training Videos",
     "section": "",
-    "text": "Everyone can submit their own resource to this website via this form. The list of existing submissions is below."
+    "text": "Note\n\n\n\nPlease report an issue if you experience unexpected or broken links below."
   },
   {
-    "objectID": "resources.html#submit-your-resource-to-our-website",
-    "href": "resources.html#submit-your-resource-to-our-website",
-    "title": "Statistical Consulting Training Resources",
+    "objectID": "videos.html#video-repository",
+    "href": "videos.html#video-repository",
+    "title": "Statistical Consulting Training Videos",
     "section": "",
-    "text": "Everyone can submit their own resource to this website via this form. The list of existing submissions is below."
+    "text": "Note\n\n\n\nPlease report an issue if you experience unexpected or broken links below."
   },
   {
-    "objectID": "resources.html#resource-repository",
-    "href": "resources.html#resource-repository",
-    "title": "Statistical Consulting Training Resources",
-    "section": "Resource Repository",
-    "text": "Resource Repository\n\n\n\n\n\n\nNote\n\n\n\nPlease report an issue if you experience unexpected or broken links below."
+    "objectID": "videos.html#submit-your-video-to-our-website",
+    "href": "videos.html#submit-your-video-to-our-website",
+    "title": "Statistical Consulting Training Videos",
+    "section": "Submit your video to our website!",
+    "text": "Submit your video to our website!\nEveryone can submit their own video to this website via this form. We will review all submitted videos and vote on whether to include the video in this repository, based on a rubric assessing: concept/topic, accuracy/understanding of statistical concepts, organization, script quality and content, video quality, discussion question quality, and adherence to contributor code of conduct. Videos may be resubmitted for approval if appropriate adjustments are made.\nNew submissions will require the following:\n\nA YouTube link to their video (see production requirements below)\nA script\nA set of discussion questions\nAn acknowledgement of our contributor code of conduct\n\nVideo requirements:\n\nVideos must be audible.\nClosed-captioning should be provided (see YouTube instructions here)\nVideos must be under 6 minutes in length\nMust conform to YouTube’s guidelines for all ages\nAll actors/contributors must consent to public distribution\n\nWe wish to encourage creativity! We only request that the script is constrained to being believable and within the realm of reality for a statistical consultant."
   },
   {
     "objectID": "ReadMe.html",
@@ -84,24 +63,45 @@
     "text": "Who we are\nVisit our about us page to learn more."
   },
   {
-    "objectID": "videos.html",
-    "href": "videos.html",
-    "title": "Statistical Consulting Training Videos",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Note\n\n\n\nPlease report an issue if you experience unexpected or broken links below."
+    "text": "Ryan Peterson: personal website, ,  ,  \nEmily Griffith: personal website, \nJulia Sharp: personal website,"
   },
   {
-    "objectID": "videos.html#video-repository",
-    "href": "videos.html#video-repository",
-    "title": "Statistical Consulting Training Videos",
+    "objectID": "about.html#who-we-are",
+    "href": "about.html#who-we-are",
+    "title": "About",
     "section": "",
-    "text": "Note\n\n\n\nPlease report an issue if you experience unexpected or broken links below."
+    "text": "Ryan Peterson: personal website, ,  ,  \nEmily Griffith: personal website, \nJulia Sharp: personal website,"
   },
   {
-    "objectID": "videos.html#submit-your-video-to-our-website",
-    "href": "videos.html#submit-your-video-to-our-website",
-    "title": "Statistical Consulting Training Videos",
-    "section": "Submit your video to our website!",
-    "text": "Submit your video to our website!\nEveryone can submit their own video to this website via this form. We will review all submitted videos and vote on whether to include the video in this repository, based on a rubric assessing: concept/topic, accuracy/understanding of statistical concepts, organization, script quality and content, video quality, discussion question quality, and adherence to contributor code of conduct. Videos may be resubmitted for approval if appropriate adjustments are made.\nNew submissions will require the following:\n\nA YouTube link to their video (see production requirements below)\nA script\nA set of discussion questions\nAn acknowledgement of our contributor code of conduct\n\nVideo requirements:\n\nVideos must be audible.\nClosed-captioning should be provided (see YouTube instructions here)\nVideos must be under 6 minutes in length\nMust conform to YouTube’s guidelines for all ages\nAll actors/contributors must consent to public distribution\n\nWe wish to encourage creativity! We only request that the script is constrained to being believable and within the realm of reality for a statistical consultant."
+    "objectID": "about.html#history",
+    "href": "about.html#history",
+    "title": "About",
+    "section": "History",
+    "text": "History\nTeaching statistical consulting, collaboration, and communication can be challenging. While there are many resources available, they may be difficult to find, share, and use.\nFor example, Janice Derr’s classic textbook “Statistical Consulting: A Guide to Effective Communication” contains a terrific video storyline portraying positive and negative statistical consulting interactions (Derr 2000). However, while the videos are quite valuable, they are increasingly difficult to obtain as the textbook is out of print and the video file format is not widely supported.\nAfter discussing these concerns and finding a shared interest in new videos, Julia Sharp (Colorado State University), Megan Higgs (Critical Inference, LLC), and Emily Griffith (NC State University) were funded through the American Statistical Association’s member initiatives in 2019 to create a series of ten modern, freely available, collaboration training videos. The videos were filmed in October of 2019 at Colorado State University under the direction of video producer and videographer Mona Maser. The videos were posted on YouTube and the corresponding curriculum was published in the Journal of Statistics and Data Science Education (Sharp, Griffith, Higgs 2021).\nRyan Peterson, Assistant Professor of Biostatistics at the Colorado School of Public Health at the University of Colorado, used the newer training videos in his course, Statistical Consulting I. One of the projects he created was for student groups to create their own videos illustrating an issue that can arise in collaborative statistical work.\nInspired by the students’ work, Ryan Peterson, Julia Sharp, and Emily Griffith developed this video and resource repository. The video repository contains freely available videos that are useful for training and education in statistical collaboration and consulting.\nThe resource repository is an extensive bibliography of works related to statistical collaboration and consulting, including articles focused on communication, career development, and more! We hope that you enjoy this resource, find it helpful, and invite you to add to it with your own work and the work of others that you enjoy!\nReferences\nDerr, J (2000), Statistical Consulting: A Guide to Effective Communication, Pacific Grove, CA: Brooks/Cole Press.\nSharp, JL, EH Griffith, and MD Higgs (2021), “Setting the Stage: Statistical Collaboration Videos for Training the Next Generation of Applied Statisticians,” Journal of Statistics and Data Science Education, 29:2, 165-170, DOI: 10.1080/26939169.2021.1934202"
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Statistical Consulting Training Resources",
+    "section": "",
+    "text": "Everyone can submit their own resource to this website via this form. The list of existing submissions is below."
+  },
+  {
+    "objectID": "resources.html#submit-your-resource-to-our-website",
+    "href": "resources.html#submit-your-resource-to-our-website",
+    "title": "Statistical Consulting Training Resources",
+    "section": "",
+    "text": "Everyone can submit their own resource to this website via this form. The list of existing submissions is below."
+  },
+  {
+    "objectID": "resources.html#resource-repository",
+    "href": "resources.html#resource-repository",
+    "title": "Statistical Consulting Training Resources",
+    "section": "Resource Repository",
+    "text": "Resource Repository\n\n\n\n\n\n\nNote\n\n\n\nPlease report an issue if you experience unexpected or broken links below."
   }
 ]
