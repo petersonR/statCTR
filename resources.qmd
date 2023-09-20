@@ -24,6 +24,7 @@ x %>%
   select(-Timestamp, -Subtitle, -`Email Address`, -`Additional Comments`) %>% 
   filter(!is.na(`Resource Title`)) %>% 
   rename(Link = `Link to Online Resource`) %>% 
+  filter(`Resource Title` != "Moral Reasoning in Scientific Research") %>% # filter duplicate
   mutate(Link = paste0('<a href="', Link, '">Link</a>')) %>% 
   datatable(options=list(pageLength=25, autoWidth=TRUE), rownames=FALSE, 
             escape = FALSE, filter = "top")
